@@ -1,6 +1,6 @@
 let animalTypes: string[] = ["MOOSE", "COW", "HORSE"];
 
-function getNoise(animalTypes: any) {
+function getNoise(animalTypes: string) {
 
     if (animalTypes === "MOOSE") { console.log("NEIIIIIIIGH whatever noise Moose make"); }
     else if (animalTypes === "COW") { console.log("MOOOOOOOOOOO"); }
